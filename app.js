@@ -4,7 +4,7 @@ const res = require('express/lib/response');
 
 const app = express();
 
-app.get('/', () => {
+app.get('/', (req, res) => {
     res.send('Hello world');
 })
 
