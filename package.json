@@ -6,10 +6,10 @@
   "scripts": {
     "test": "jest",
     "start": "node app.js"
-  },​
+  },
   "keywords": [],
-  "author": "MRI",
-  "license": "",
+  "author": "",
+  "license": "ISC",
   "dependencies": {
     "debug": "^4.3.4",
     "express": "^4.17.3",
@@ -18,8 +18,5 @@
   "devDependencies": {
     "jest": "^27.5.1",
     "supertest": "^6.2.2"
-  },
-  "engines": {​
-    "node": "16.14.0"
   }
 }
